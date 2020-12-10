@@ -42,13 +42,42 @@ h1 {
 
 .bgImage {
   background-image: url("../Images/claujnunez_hero_backgroundimg.png");
-  height: 800px;
+  height: 1000px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* .navHeader {
+    float: right;
+    color: white;
+} */
 
+/* Navigation 
+.navbar {
+  float: right;
+  overflow: hidden;
+  height: 90px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.navbar a:hover {
+  border-bottom: 2px #fff solid;
+}
+
+.navbar .flex {
+  justify-content: space-between;
+}
+*/
 
 .container {
   max-width: 1100px;
@@ -88,27 +117,19 @@ a:hover {
 
 .smallHead {
   color: #fff;
-  font-size: 40px;
+  font-size: x-large;
   display: flex;
   justify-content: center;
 }
 
 .nameTitle {
   color: #fff;
-  position: absolute;
-  bottom: 15%;
   font-size: 50px;
-  margin: 0 auto;
-  left: 11%;
-  right: 11%;
+  display: flex;
   justify-content: center;
 }
 
 .description {
-  position: absolute;
-  bottom: 0%;
-  padding: 0 10px;
-  /* background-color: red; */
   text-align: center;
   color: #fff;
 }
@@ -131,31 +152,19 @@ a:hover {
 }
 
 .content {
-  /* background-color: lime; */
   position: absolute;
   left: 20%;
   right: 20%;
-  top: 15%;
+  top: 40%;
   width: 500px;
-  height: 500px;
   margin: 0 auto;
 }
 
-.content, .facepic {
-  margin: 0% auto;
-  position: absolute;
-  left: 20%;
-  right: 20%;
-}
-
-.facepic {
-  width: 40%;
-}
 .buttonsWrapper {
   position: absolute;
   left: 15%;
   right: 15%;
-  bottom: 20%;
+  bottom: 30%;
 }
 
 .btn-primary {
@@ -184,18 +193,16 @@ a:hover {
 
 .socialDiv {
   position: absolute;
-  top: 120%;
+  top: 150%;
   left: 0%;
   right: 0%;
   color: white;
   width: 100%;
 }
 
-.iconsSocial, a {
-  /* background-color: yellow; */
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 4%;
+.iconsSocial {
+  /* margin-right: 20px; */
+  width: 2.5%;
 }
 
 /* vvvvvv  Prejects Sections vvvvvv */
@@ -207,18 +214,8 @@ a:hover {
 }
 
 #obtiCard {
- 
   max-width: 50%;
   background-color: red;
-}
-
-#optiMealImg {
-  
-  width: 110%;
-}
-
-#cambioImg {
-  width: 80%;
 }
 
 .projectsSec {
@@ -468,7 +465,7 @@ footer {
     /* margin: 0 auto; */
     /* max-width: 100% !important; */
 
-    /* background-color: lime; */
+    background-color: lime;
   }
 
   .col-md-3,
@@ -501,13 +498,8 @@ footer {
     width: 200px;
     height: 200px;
     overflow: hidden;
-    /* background-color: lime; */
+    background-color: lime;
     padding: 5% 25% 0 25%;
-  }
-
-  .iconsSocial {
-    min-width: 40px;
-    /* background-color: red; */
   }
 
   .content {
@@ -520,11 +512,10 @@ footer {
   }
 
   .smallHead {
-    /* background-color: red; */
-    display: block;
+    display: inline-block;
     align-content: center;
     text-align: center;
-    /* padding: 30 0 0 43%; */
+    padding: 30 0 0 43%;
   }
 
   .nameTitle {
@@ -574,7 +565,7 @@ footer {
 
   .textCard2 {
     margin: 0 auto;
-    /* background-color: red; */
+    background-color: red;
   }
 
   #soteriaText {
@@ -587,7 +578,7 @@ footer {
     position: relative;
     left: -40%;
     width: 50%;
-    /* background-color: lightcoral; */
+    background-color: lightcoral;
   }
 
   #picCard2 {
@@ -595,7 +586,7 @@ footer {
     justify-content: center;
     padding: 0 30px 0 30px;
     top: -121%;
-    /* background-color: purple; */
+    background-color: purple;
   }
 
   #cambioCard {
@@ -615,7 +606,7 @@ footer {
   }
 
   .card-imgOdd {
-    /* background-color: magenta; */
+    background-color: magenta;
     width: 0 auto;
     margin: 0;
     padding: 0%;
